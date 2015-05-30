@@ -1,0 +1,17 @@
+{
+  "name": "js-challenge-playground",
+  "version": "1.0.0",
+  "description": "Playground for various JavaScript challenges",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start karma.conf.js --singleRun",
+    "watch": "node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "Enrico Mraß",
+  "license": "ISC",
+  "devDependencies": {
+    "karma-phantomjs-launcher": "*",
+    "karma-qunit": "^0.1.4",
+    "qunitjs": "^1.18.0"
+  }
+}
