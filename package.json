@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Playground for various JavaScript challenges",
   "main": "app.js",
+  "private": true,
   "scripts": {
     "test": "node_modules/karma/bin/karma start karma.conf.js --singleRun",
     "watch": "node_modules/karma/bin/karma start karma.conf.js"
